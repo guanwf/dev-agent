@@ -1,0 +1,28 @@
+{
+  "name": "dev-agent",
+  "version": "1.0.0",
+  "description": "Autonomous CLI Coding Agent with ReAct loop, surgical patcher, and self-healing",
+  "type": "module",
+  "bin": {
+    "dev-agent": "./bin/cli.ts"
+  },
+  "scripts": {
+    "start": "tsx bin/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "chalk": "^5.4.1",
+    "diff": "^7.0.0",
+    "execa": "^9.5.2"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.7",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.14.0",
+    "@types/diff": "^7.0.0",
+    "tsx": "^4.21.0"
+  }
+}

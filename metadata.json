@@ -1,0 +1,6 @@
+{
+  "name": "DevAgent - Autonomous Coding CLI & Workbench",
+  "description": "An industrial-grade CLI-based Autonomous Coding Agent inspired by Claude Code and Aider, featuring ReAct loop, surgical fuzzy patcher, self-healing shell, and safety guardrails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
